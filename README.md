@@ -1,43 +1,80 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # PlacementPro
- 
-> A centralized placement preparation hub for engineering students to track DSA progress, contest history, and company-specific prep — all in one place.
- 
+
+PlacementPro is a centralized, premium-designed placement preparation platform built for engineering students to track their Data Structures & Algorithms (DSA) progress, monitor contest history, prepare company-wise, and schedule mock interviews.
+
 ---
- 
-## Tech Stack
- 
-| Layer | Technology |
-|---|---|
-| Frontend | React.js (Vite) |
-| Styling | Tailwind CSS |
-| Backend | Node.js + Express.js |
-| Database | MongoDB (Mongoose ODM) |
-| Authentication | JWT + bcrypt / Google OAuth 2.0 |
-| Charts | Recharts |
-| AI | Gemini API |
-| Deployment | Vercel + Render + MongoDB Atlas |
- 
+
+## 🚀 Key Features
+
+*   **💻 DSA Tracker**: Log and monitor your problem-solving progress by topic and difficulty across LeetCode, Codeforces, and more.
+*   **🏆 Contest History**: Sync and visualize coding contest ratings and rankings from major platforms.
+*   **🏢 Company Prep**: Curated problem sheets customized for top recruiting product-based companies.
+*   **🎙️ Mock Interviews**: Schedule and log practice interviews with structured feedback reports.
+*   **📊 Progress Analytics**: Visual dashboards and charts illustrating topic-wise readiness and growth.
+*   **🔥 Daily Streaks**: Stay consistent with progress streak counters and customized daily goals.
+
 ---
- 
-## Setup
- 
-Coming soon.
->>>>>>> 685d609df9f3a18fff8b94dfceafe23318da9f65
+
+## 🛠️ Technology Stack
+
+*   **Frontend**: React (Vite-powered environment for lightning-fast HMR)
+*   **Styling**: Tailwind CSS (version 3 for modern, custom utility-first designs)
+*   **Routing**: React Router DOM (version 6 for declarative client-side navigation)
+*   **Aesthetics**: Harmonious color palettes, premium gradients, card hover lift effects, and responsive mobile-first layouts
+
+---
+
+## 📂 Directory Structure
+
+```text
+placementpro/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx    # Responsive header with navigation links
+│   │   ├── Hero.jsx      # Premium blue gradient hero section
+│   │   ├── Card.jsx      # Reusable features display card with hover effects
+│   │   └── Footer.jsx    # Centered dark copyright footer
+│   ├── pages/
+│   │   ├── Home.jsx      # Assembled landing page with features grid
+│   │   ├── About.jsx     # Vision and platform description page
+│   │   ├── Dashboard.jsx # Future personalized metrics tracker
+│   │   └── Login.jsx     # Authentication entry point
+│   ├── App.jsx           # Main client-side routing definitions
+│   ├── main.jsx          # Root rendering entry wrapping the App in BrowserRouter
+│   └── index.css         # Main stylesheet injecting Tailwind directives
+├── tailwind.config.js    # Tailwind content and theme setup
+├── postcss.config.js     # PostCSS configurations for Tailwind
+└── package.json          # Dependency and script manager
+```
+
+---
+
+## ⚡ Setup & Installation
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Getting Started
+
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/anshhhgupta/placement-pro.git
+    cd placement-pro
+    ```
+
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Start the Local Development Server**:
+    ```bash
+    npm run dev
+    ```
+    Access the application at [http://localhost:5173/](http://localhost:5173/).
+
+4.  **Build for Production**:
+    ```bash
+    npm run build
+    ```
